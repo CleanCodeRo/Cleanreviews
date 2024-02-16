@@ -1,4 +1,4 @@
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 
 export default function Toolbox() {
@@ -8,13 +8,13 @@ export default function Toolbox() {
                 href={'/'}
                 className="flex h-8 flex-row items-center justify-center"
             >
-                <Image
+                <img
                     id="logo"
-                    src="/logo.png"
+                    src="https://cdn.discordapp.com/attachments/679252728106713089/1208051182904549428/logo.png?ex=65e1e056&is=65cf6b56&hm=6cd0b7c73850f7219bc8e204c33ac0c0e72043a6acf5c2a6a723595c1ff5387b&"
                     width={600}
                     height={20}
                     alt="logo"
-                ></Image>
+                ></img>
             </Link>
             <input
                 type="text"
