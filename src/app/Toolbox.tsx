@@ -23,25 +23,25 @@ export default function Toolbox() {
             />
             <Link
                 href={'/list/movies'}
-                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-3xl"
+                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-2xl"
             >
                 Movies
             </Link>
             <Link
                 href={'/list/shows'}
-                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-3xl"
+                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-2xl"
             >
                 Shows
             </Link>
             <Link
                 href={'/list/books'}
-                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-3xl"
+                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-2xl"
             >
                 Books
             </Link>
             <Link
                 href={'/list/restaurants'}
-                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-3xl"
+                className="m-4 flex items-center justify-center border-b-2 p-4 text-xl text-white hover:rounded-md hover:bg-white hover:text-black 2xl:text-2xl"
             >
                 Restaurants
             </Link>
