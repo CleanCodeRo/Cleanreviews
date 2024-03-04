@@ -10,7 +10,7 @@ export default function Toolbox() {
             >
                 <img
                     id="logo"
-                    src="https://drive.google.com/file/d/1OyXrR-w4XfzMvck3pS-QS_d3089CP3xi/view"
+                    src="https://i.ibb.co/SKRzprR/logo2.png"
                     width={600}
                     height={20}
                     alt="logo"
