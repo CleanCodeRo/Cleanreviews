@@ -3,10 +3,10 @@ import Link from 'next/link';
 export default function Page() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-24">
-            <div className="absolute flex h-4/6 w-4/12 flex-col items-center justify-start rounded-t-xl bg-white">
+            <div className="absolute flex w-4/12 flex-col items-center justify-start rounded-t-xl bg-white">
                 <Link
                     href={'/'}
-                    className="relative mb-5 flex h-1/4 w-full flex-row items-center justify-center rounded-t-xl bg-red-600"
+                    className="relative mb-5 flex h-48 w-full flex-row items-center justify-center rounded-t-xl bg-red-600"
                 >
                     <div className="relative h-4/6 w-full bg-logo bg-cover bg-center"></div>
                 </Link>
@@ -29,7 +29,7 @@ export default function Page() {
                     >
                         Register
                     </Link>
-                    <div className="relative w-11/12 text-center">
+                    <div className="relative w-11/12 text-center mb-12">
                         Already have an account?{' '}
                         <Link
                             href={'/auth'}
