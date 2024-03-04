@@ -10,7 +10,7 @@ export default function Toolbox() {
             >
                 <img
                     id="logo"
-                    src="https://cdn.discordapp.com/attachments/679252728106713089/1208051182904549428/logo.png?ex=65e1e056&is=65cf6b56&hm=6cd0b7c73850f7219bc8e204c33ac0c0e72043a6acf5c2a6a723595c1ff5387b&"
+                    src="https://drive.google.com/file/d/1OyXrR-w4XfzMvck3pS-QS_d3089CP3xi/view"
                     width={600}
                     height={20}
                     alt="logo"
