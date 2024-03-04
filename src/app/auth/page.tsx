@@ -1,24 +1,42 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Page() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-24">
-            <div className="absolute flex h-3/6 w-4/12 items-start justify-center rounded-xl bg-white">
+            <div className="absolute flex h-4/6 w-4/12 flex-col items-center justify-start rounded-t-xl bg-white">
                 <Link
                     href={'/'}
-                    className="relative flex h-1/6 w-full flex-row items-center justify-center rounded-xl bg-red-600"
+                    className="relative mb-5 flex h-1/4 w-full flex-row items-center justify-center rounded-t-xl bg-red-600"
                 >
-                    <Image
-                        id="logo"
-                        src="https://i.ibb.co/SKRzprR/logo2.png"
-                        width={600}
-                        height={20}
-                        alt="logo"
-                        className="w-3/4"
-                    ></Image>
+                    <div className="relative h-4/6 w-full bg-logo bg-cover bg-center"></div>
                 </Link>
+                <div className="relative flex h-4/6 w-10/12 flex-col items-center justify-start">
+                    <input
+                        placeholder="Email"
+                        className="mb-5 mt-24 w-11/12 border-b-2 border-red-600 p-5 text-left text-2xl"
+                    />
+                    <input
+                        placeholder="Password"
+                        className="m-5 w-11/12 border-b-2 border-red-600 p-5 text-left text-2xl"
+                    />
+                    <Link
+                        href={'/'}
+                        className="relative m-5 w-6/12 rounded-lg bg-red-600 p-5 text-center text-3xl font-bold text-white"
+                    >
+                        Login
+                    </Link>
+                    <div className="relative w-11/12 text-center">
+                        Don&apos;t have an account?{' '}
+                        <Link
+                            href={'/register'}
+                            draggable="false"
+                            className="hover:text-red-600"
+                        >
+                            click here!
+                        </Link>
+                    </div>
+                </div>
             </div>
         </main>
     );
