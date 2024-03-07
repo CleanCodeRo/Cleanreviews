@@ -1,6 +1,10 @@
+'use client'
+import { useEffect, useState } from 'react';
 import Toolbox from './Toolbox';
 
 export default function Home() {
+    const [users, setUsers] = useState([]);
+    console.log('Users:', users);
     return (
         <main className="mx-10 flex min-h-screen flex-col items-center justify-start bg-no-repeat">
             <Toolbox />

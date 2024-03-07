@@ -1,0 +1,1 @@
+ALTER TABLE "comments" ADD COLUMN "message" varchar(2500);

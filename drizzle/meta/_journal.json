@@ -8,6 +8,27 @@
       "when": 1709801474112,
       "tag": "0000_wild_jean_grey",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1709813352917,
+      "tag": "0001_yellow_fenris",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1709813444431,
+      "tag": "0002_woozy_jubilee",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1709813547871,
+      "tag": "0003_stiff_microchip",
+      "breakpoints": true
     }
   ]
 }
