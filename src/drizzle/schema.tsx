@@ -1,4 +1,4 @@
-import { pgTable, serial, text, timestamp, varchar } from "drizzle-orm/pg-core";
+import { pgTable, serial, text, timestamp} from "drizzle-orm/pg-core";
 
 export const users = pgTable('users', {
   id: serial('id').primaryKey(),
@@ -9,3 +9,14 @@ export const users = pgTable('users', {
   createdAt:timestamp("created_at"),
   updatedAt:timestamp("updated_at"),
 });
+
+export const posts = pgTable("posts", {
+  id:serial("id").primaryKey(),
+  name:text("name"),
+  createdAt:timestamp("created_at"),
+  updatedAt:timestamp("updated_at"),
+})
+
+export const comments = pgTable("comments", {
+  id:serial("id").primaryKey(),
+})
