@@ -1,8 +1,6 @@
 'use server'
 import { fetchUser } from "@/drizzle/db";
 
-export const Fetching = async ({setUsers}) => {
+export const Fetching = async () => {
     const users = await fetchUser()
-    setUsers(users) 
-    return (<></>)
 };
